@@ -1,199 +1,185 @@
-RecoveryFit Privacy Policy
+# Privacy Policy for RecoveryFit
 
-Effective Date: January 2025
-Developer: RecoveryFit (owned by Clayton Stevens)
-Contact Email: support@recoveryfitapp.com
+**Last Updated:** December 2025
 
-1. Introduction
+RecoveryFit (“we,” “our,” or “us”) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how RecoveryFit (owned and operated by Clayton Stevens) collects, uses, and protects data when you use the RecoveryFit mobile application.
 
-RecoveryFit (“we”, “our”, or “the app”) is a fitness and recovery tracking application designed to help users log workouts, monitor recovery, and track wellness metrics. We prioritize privacy and transparency.
+---
 
-RecoveryFit does not require user accounts, does not use cloud servers, and does not sell or share any personal data.
-All data stays locally on your device, unless you explicitly choose to enable Apple Health or Google Fit integrations.
+## 1. Information We Collect
 
-2. Information We Collect
-2.1 Workout & Fitness Data (Stored Locally)
+### A. Workout & Fitness Data
+RecoveryFit collects fitness-related data that you voluntarily enter or generate while using the app. This data is stored **locally on your device** unless otherwise stated.
 
-RecoveryFit allows users to manually log workout information including:
+This includes:
+- Workout logs and exercise history
+- Sets, reps, weight, duration, distance (where applicable)
+- Recovery sessions and recovery scores (0–100)
+- Muscle fatigue and recovery metrics
+- Custom exercises and routines
+- Heart rate data (manual entry or via health integrations)
+- Calories, workout duration, intensity
+- Recovery impact scores
 
-Exercises
+---
 
-Sets, reps, weight
+### B. Health & Recovery Data
+RecoveryFit may collect health-related data, either manually entered by you or read from connected health services (with permission):
 
-Workout duration
+- Sleep duration and quality (manual entry or via integration)
+- Heart Rate Variability (HRV)
+- Resting heart rate
+- Muscle soreness levels
+- Stress, mood, and energy levels
+- Hydration levels
+- Height and weight
 
-Workout intensity
+All health data is stored locally on your device unless explicitly stated otherwise.
 
-Calories burned
+---
 
-Heart rate (manual or imported)
-
-Resting heart rate
-
-Recovery score (calculated in-app)
-
-All workout data is stored locally on the device only.
-
-2.2 Recovery & Wellness Metrics (Manual Entry)
-
-Users may manually enter data such as:
-
-Sleep
-
-HRV
-
-Mood
-
-Stress
-
-Hydration
-
-Muscle soreness
-
-Energy level
-
-No wellness data is uploaded or shared.
-
-2.3 Profile Information (Stored Locally)
-
+### C. Profile Information
 Optional profile data may include:
+- Age (date of birth)
+- Gender
+- Height and weight
+- Fitness level and activity level
+- Fitness goals
+- Unit preferences (metric/imperial)
+- Join date
+- Optional name and email
 
-Age
+---
 
-Gender
+### D. Device & App Usage Data
+When enabled, RecoveryFit collects limited technical and usage data to improve app performance and stability:
 
-Height & weight
+- Screen views (navigation events)
+- Feature usage (button taps, settings changes)
+- App lifecycle events (open, close, background)
+- Performance metrics (load times, responsiveness)
+- Crash reports and error logs
 
-Fitness level
+This data **does not include workout values, health metrics, or personal identifiers**.
 
-Unit preferences
+---
 
-Fitness goals
+## 2. Analytics & Crash Reporting
 
-This data is used exclusively to personalize the user experience.
+Analytics and crash reporting are **enabled by default** to help improve app quality, reliability, and user experience.
 
-3. Health Integrations
+### What is collected:
+- App performance data
+- Error and crash logs
+- General usage patterns (non-content)
 
-RecoveryFit may optionally read data from:
+### What is NOT collected:
+- Workout content
+- Health values
+- Personal identifiers
+- Names, emails, or contact information
 
-Apple Health (HealthKit)
-Google Fit
+### User Control:
+You can disable:
+- Analytics tracking
+- Crash reporting
 
-These integrations are opt-in only and require explicit user permission.
+at any time from **Profile → Privacy Settings**. Disabling these features does not affect core app functionality.
 
-With permission, RecoveryFit may read:
+---
 
-Heart rate
+## 3. Health Integrations
 
-HRV
+RecoveryFit can read data from:
+- **Apple Health**
+- **Google Fit**
 
-Sleep
+Only with your explicit permission.
 
-Steps
+Data types that may be read include:
+- Heart rate
+- HRV
+- Sleep
+- Steps
+- Distance
+- Calories
+- Weight
+- Height
+- Resting heart rate
 
-Distance
+RecoveryFit does **not** write data back to these services.
 
-Active calories
+---
 
-Weight
+## 4. How We Use Your Data
 
-Height
+We use collected data solely to:
+- Provide core app functionality
+- Calculate recovery and fatigue metrics
+- Improve app performance and stability
+- Identify bugs and crashes
+- Enhance user experience
 
-Resting heart rate
+We do **not** use your data for:
+- Advertising
+- Marketing
+- Selling or renting data
+- User profiling
 
-RecoveryFit does not:
+---
 
-Write any data to Apple Health or Google Fit
+## 5. Data Storage
 
-Upload any health data to servers
+- All workout, recovery, and health data is stored **locally on your device**
+- RecoveryFit does **not** maintain cloud databases for user data
+- No user accounts or authentication systems are used
+- No automatic cloud syncing is performed
 
-Share, sell, or use health data for advertising
+Future cloud sync features may be introduced, but will require explicit user consent and an updated privacy policy.
 
-Users may revoke permissions at any time through device settings.
+---
 
-4. Device & App Information
+## 6. Data Sharing
 
-RecoveryFit may collect optional, anonymized technical data such as:
+RecoveryFit does **not** sell, trade, or share your personal data.
 
-Crash logs
+**Exception:**  
+If analytics or crash reporting is enabled, anonymized technical data may be processed by trusted infrastructure providers (such as Expo Application Services) solely for app improvement and debugging purposes.
 
-Simple usage analytics
+No personal or health data is shared.
 
-These are processed by Expo, our development platform, but:
+---
 
-contain no personal data
+## 7. Your Rights & Choices
 
-contain no health data
+You have the right to:
+- Disable analytics and crash reporting
+- Control permissions for Apple Health / Google Fit
+- Delete the app to remove all locally stored data
 
-are never sold or used for advertising
+RecoveryFit does not retain copies of your data once the app is removed.
 
-Users may disable this in the app’s privacy settings.
+---
 
-5. How We Use Your Information
+## 8. Children’s Privacy
 
-RecoveryFit uses data only for:
+RecoveryFit is not intended for children under the age of 13. We do not knowingly collect data from children.
 
-Creating workout logs
+---
 
-Calculating recovery scores
+## 9. Changes to This Policy
 
-Showing trends and progress
+We may update this Privacy Policy as the app evolves. Any changes will be posted publicly, and the “Last Updated” date will reflect the revision.
 
-Personalizing analytics
+---
 
-Improving app performance (optional analytics)
+## 10. Contact Us
 
-RecoveryFit never uses data for:
+If you have questions or concerns about this Privacy Policy, contact us at:
 
-Advertising
+**Email:** support@recoveryfitapp.com
 
-Selling data
+---
 
-Marketing
+© RecoveryFit — Owned and operated by Clayton Stevens
 
-Third-party profiling
-
-6. Data Sharing
-
-RecoveryFit does not:
-
-share,
-
-sell,
-
-trade, or
-
-transfer
-
-any personal or health data to third parties.
-
-7. Data Storage & Security
-
-All personal and health data is stored locally on your device using secure storage provided by the operating system.
-
-Data is never stored on cloud servers.
-
-You may delete your data at any time by:
-
-Using the in-app “Reset Data” feature (if enabled)
-
-Clearing app storage
-
-Uninstalling the app
-
-8. Children’s Privacy
-
-RecoveryFit is not designed for children under age 13.
-We do not knowingly collect data from children.
-
-9. Changes to This Policy
-
-This policy may be updated as necessary. Any changes will be reflected with a new “Effective Date.”
-
-10. Contact Us
-
-For questions, support, or privacy concerns:
-
-Email: support@recoveryfitapp.com
-
-Developer: RecoveryFit (owned by Clayton Stevens)

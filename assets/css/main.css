@@ -1,0 +1,57 @@
+@import url("design-tokens.css");
+
+/* Page base */
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: var(--font-secondary);
+  color: var(--text);
+}
+
+/* Page container */
+.page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-xl);
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: var(--font-primary);
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-lg);
+}
+
+/* Sections (makes markdown feel like a site) */
+.section {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+/* FAQ styles */
+details {
+  border-bottom: 1px solid var(--border);
+  padding: var(--space-md) 0;
+}
+
+summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -3,7 +3,7 @@ layout: default
 title: Index
 ---
 
-RecoveryFit helps you balance strength, cardio, and recovery with
+# RecoveryFit helps you balance strength, cardio, and recovery with
 clear insights into your training load and progress over time.
 
 ---

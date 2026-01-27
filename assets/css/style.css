@@ -33,6 +33,19 @@
   margin-left: 1.5rem;
   font-weight: 500;
   text-decoration: none;
+  
+  <nav>
+  <a href="{{ site.baseurl }}/support"
+     class="{% if page.url contains 'support' %}active{% endif %}">
+     Support
+  </a>
+
+  <a href="{{ site.baseurl }}/terms-of-service"
+     class="{% if page.url contains 'terms' %}active{% endif %}">
+     Terms
+  </a>
+</nav>
+
 }
 
 /* Section rhythm */

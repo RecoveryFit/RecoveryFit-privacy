@@ -4,7 +4,12 @@
   <meta charset="UTF-8" />
   <title>{{ page.title }} | RecoveryFit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+
+  <!-- Minima base styles (THIS FIXES TIMES NEW ROMAN) -->
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+
+  <!-- RecoveryFit overrides -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 
 <body>
@@ -13,8 +18,8 @@
     <div class="nav-container">
       <div class="brand">RecoveryFit</div>
       <nav>
-        <a href="{{ site.baseurl }}/support/">Support</a>
-        <a href="{{ site.baseurl }}/terms-of-service/">Terms</a>
+        <a href="{{ '/support' | relative_url }}">Support</a>
+        <a href="{{ '/terms-of-service' | relative_url }}">Terms</a>
       </nav>
     </div>
   </header>

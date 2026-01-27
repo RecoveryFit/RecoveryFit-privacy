@@ -1,115 +1,147 @@
 ---
 layout: page
 title: Support & FAQ
+permalink: /support/
 ---
 
-## Support & Frequently Asked Questions
+<div style="max-width: 720px; margin: auto;">
 
-Welcome to RecoveryFit support. Below are answers to common questions about workouts, recovery tracking, data, and account usage.
-
-If you need additional help, contact us at **support@recoveryfitapp.com**.
+Welcome to **RecoveryFit Support**.  
+Below you’ll find answers to common questions about workouts, recovery tracking, and app usage.
 
 ---
 
 ## Getting Started
 
-### What is RecoveryFit?
-RecoveryFit is a fitness and recovery tracking app designed to help you log workouts, monitor training volume, track recovery sessions, and understand your progress over time.
+<details>
+<summary><strong>What is RecoveryFit?</strong></summary>
+
+RecoveryFit is a training and recovery tracking app designed to help you balance workload, recovery, and performance over time.
+
+</details>
+
+<details>
+<summary><strong>Is RecoveryFit free?</strong></summary>
+
+RecoveryFit may offer free and paid features depending on your plan. Feature availability is always shown clearly in the app.
+
+</details>
+
+<details>
+<summary><strong>Which platforms are supported?</strong></summary>
+
+RecoveryFit is currently available on supported mobile platforms. Platform availability may expand over time.
+
+</details>
 
 ---
 
-### Do I need an account to use RecoveryFit?
-Some features may require an account to save and sync your workout history across devices.
+## Workouts & Training
+
+<details>
+<summary><strong>How do I log a workout?</strong></summary>
+
+You can log workouts directly in the app by starting a session, scheduling one on the calendar, or adding a workout to a previous day.
+
+</details>
+
+<details>
+<summary><strong>Can I schedule workouts for later?</strong></summary>
+
+Yes. Scheduled workouts appear on your calendar and can be started or marked complete when finished.
+
+</details>
+
+<details>
+<summary><strong>Can I log workouts after they’re completed?</strong></summary>
+
+Yes. When adding a workout to a past date, you can choose to enter details such as duration, sets, reps, and weight — or skip details if preferred.
+
+</details>
+
+<details>
+<summary><strong>Can I run multiple workouts at the same time?</strong></summary>
+
+No. RecoveryFit allows only one active workout session at a time to prevent data conflicts and ensure accurate recovery tracking.
+
+</details>
 
 ---
 
-## Workouts
+## Recovery & Metrics
 
-### How do I add a workout?
-You can add workouts directly from the calendar by selecting a day and choosing **Add Workout**. From there, you can select a workout type (Strength, Cardio, or Recovery) and either choose a prebuilt routine or create a custom workout.
+<details>
+<summary><strong>How is recovery calculated?</strong></summary>
 
----
+Recovery is calculated based on completed workouts, intensity, volume, and recovery activities logged in the app.
 
-### Can I log workouts from previous days?
-Yes. When adding a workout to a past date, you’ll be prompted to enter workout details or skip details if preferred.
+</details>
 
----
+<details>
+<summary><strong>Do external workouts affect recovery?</strong></summary>
 
-### Can I schedule workouts for later?
-Yes. Workouts scheduled for the current day will appear on your calendar with options to start or mark them as completed later.
+Only workouts logged or completed within RecoveryFit affect recovery metrics. This ensures consistent and reliable data.
 
----
+</details>
 
-### Why can’t I start another workout while one is active?
-To prevent data conflicts and ensure accuracy, RecoveryFit only allows one active workout at a time. While a workout is in progress, you may schedule future workouts but cannot start or log another until the current session is completed.
+<details>
+<summary><strong>What metrics does RecoveryFit track?</strong></summary>
 
----
+Metrics may include training volume, time spent training, distance (for cardio), recovery impact, and exercise-specific progress over time.
 
-## Strength Training
-
-### How is training volume calculated?
-Training volume is calculated using the total sets, reps, and weight entered for each exercise. Bodyweight exercises use estimated load values when applicable.
+</details>
 
 ---
 
-### Can I track personal records (PRs)?
-Yes. RecoveryFit tracks performance over time so you can view personal records, total volume, and progress for individual exercises.
+## Data & Account
 
----
+<details>
+<summary><strong>Is my data private?</strong></summary>
 
-## Cardio Training
+Yes. Your workout and recovery data are private and used only to provide app functionality and insights.
 
-### What cardio metrics are tracked?
-Cardio workouts may track duration, distance, pace, and total mileage depending on the activity and data available.
+</details>
 
----
+<details>
+<summary><strong>Can I delete my account?</strong></summary>
 
-### Can I see weekly or long-term mileage trends?
-Yes. RecoveryFit provides weekly summaries and historical views to help you understand mileage trends over time.
+Account deletion options are available within the app or by contacting support.
 
----
+</details>
 
-## Recovery Workouts
+<details>
+<summary><strong>Will my workout data sync across devices?</strong></summary>
 
-### What are recovery workouts?
-Recovery workouts are low-intensity sessions designed to support muscle recovery, mobility, and overall readiness.
+If you’re logged into the same account, your data should remain consistent across supported devices.
 
----
-
-### How is recovery progress calculated?
-Recovery metrics are based on completed recovery sessions and user input. Values shown are estimates and should be used as general guidance, not medical advice.
-
----
-
-## Data & Accuracy
-
-### Is my workout data accurate?
-RecoveryFit uses your input and system calculations to estimate performance and recovery metrics. Results may vary based on data completeness and exercise selection.
-
----
-
-### Can I edit completed workouts?
-Yes. You can review and edit past workouts to correct or update logged details.
-
----
-
-## Health & Safety
-
-### Is RecoveryFit medical advice?
-No. RecoveryFit does not provide medical advice or diagnosis. Always consult a qualified healthcare professional before making health or fitness decisions.
+</details>
 
 ---
 
 ## Troubleshooting
 
-### My workout didn’t save — what should I do?
-Ensure your workout was completed fully and that the app remained open during completion. If issues persist, contact support with details about the workout.
+<details>
+<summary><strong>The app says I already have an active workout — what do I do?</strong></summary>
+
+Finish or end the current workout session before starting a new one. If the issue persists, try restarting the app.
+
+</details>
+
+<details>
+<summary><strong>Something doesn’t look right in my metrics</strong></summary>
+
+Make sure workouts were logged correctly with accurate details. If something still seems off, contact support.
+
+</details>
 
 ---
 
-### Who can I contact for help?
-If you need further assistance, email **support@recoveryfitapp.com** with a brief description of the issue.
+### Still need help?
 
----
+If you couldn’t find what you were looking for, we’re happy to help.
 
-_Last updated: [27 January 2026]_
+📧 **support@recoveryfitapp.com**
+
+We typically respond within 24–48 hours.
+
+</div>

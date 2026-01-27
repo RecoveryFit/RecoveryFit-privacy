@@ -4,8 +4,6 @@ title: Support & FAQ
 permalink: /support/
 ---
 
-<div style="max-width: 720px; margin: auto;">
-
 Welcome to **RecoveryFit Support**.  
 Below you’ll find answers to common questions about workouts, recovery tracking, and app usage.
 
@@ -143,6 +141,4 @@ If you couldn’t find what you were looking for, we’re happy to help.
 📧 **support@recoveryfitapp.com**
 
 We typically respond within 24–48 hours.
-
-</div>
 

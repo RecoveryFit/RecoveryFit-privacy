@@ -1,7 +1,3 @@
----
-layout: page
-title: Privacy Policy
----
 # Privacy Policy for RecoveryFit
 
 **Last Updated:** December 2025

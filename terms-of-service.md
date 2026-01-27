@@ -5,7 +5,7 @@ title: Terms of Service
 
 ## Terms of Service
 
-**Effective Date:** [Insert Date]
+**Effective Date:** [January 2026]
 
 Welcome to RecoveryFit. These Terms of Service ("Terms") govern your access to and use of the RecoveryFit mobile application and related services ("Service"). By using RecoveryFit, you agree to be bound by these Terms.
 

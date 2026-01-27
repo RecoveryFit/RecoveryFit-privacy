@@ -3,97 +3,74 @@ layout: default
 title: Terms of Service
 ---
 
-## Terms of Service
+<div class="section">
 
-**Effective Date:** [27 January 2026]
+# Terms of Service
 
-Welcome to RecoveryFit. These Terms of Service ("Terms") govern your access to and use of the RecoveryFit mobile application and related services ("Service"). By using RecoveryFit, you agree to be bound by these Terms.
+_Last updated: January 2026_
 
-If you do not agree to these Terms, do not use the Service.
+By using RecoveryFit, you agree to these Terms of Service.
 
----
+</div>
 
-## 1. Use of the Service
+<div class="section">
 
-RecoveryFit provides tools for tracking workouts, recovery activities, and fitness-related metrics. The Service is intended for informational and tracking purposes only and does not provide medical advice.
+## Use of the App
 
-You are responsible for ensuring that your use of the Service is appropriate for your health and fitness level.
+RecoveryFit is provided for fitness and recovery tracking purposes only.  
+It is not a medical device and does not provide medical advice.
 
----
+</div>
 
-## 2. No Medical Advice
+<div class="section">
 
-RecoveryFit is **not a medical device** and does not provide medical diagnoses, treatment, or professional advice.
+## User Responsibilities
 
-Always consult a qualified healthcare professional before beginning or modifying any exercise or recovery program. Use of the Service is at your own risk.
+You agree to:
+- Provide accurate information
+- Use the app safely and responsibly
+- Not misuse or attempt to exploit the platform
 
----
+</div>
 
-## 3. User Accounts and Data
+<div class="section">
 
-You are responsible for maintaining the confidentiality of your account and for all activities that occur under your account.
+## Health Disclaimer
 
-You agree to provide accurate information and to keep your account information up to date.
+Always consult a medical professional before beginning any fitness or recovery program.  
+Use RecoveryFit at your own risk.
 
----
+</div>
 
-## 4. Workout Data and Accuracy
+<div class="section">
 
-Workout summaries, volume calculations, recovery scores, and other metrics are estimates based on user-provided data and system calculations.
+## Intellectual Property
 
-RecoveryFit does not guarantee the accuracy, completeness, or usefulness of any data displayed.
+All content, branding, and software are owned by RecoveryFit unless otherwise stated.
 
----
+</div>
 
-## 5. Acceptable Use
+<div class="section">
 
-You agree not to:
-- Use the Service for unlawful purposes
-- Attempt to reverse engineer or exploit the Service
-- Interfere with the Service’s operation or security
-- Submit false or misleading data intentionally
+## Limitation of Liability
 
----
+RecoveryFit is not liable for injuries, data loss, or damages arising from app use.
 
-## 6. Intellectual Property
+</div>
 
-All content, features, and functionality of the Service—including text, graphics, logos, and software—are owned by RecoveryFit or its licensors and are protected by intellectual property laws.
+<div class="section">
 
-You may not copy, distribute, or create derivative works without permission.
+## Changes to These Terms
 
----
+We may update these terms from time to time. Continued use of the app constitutes acceptance of any changes.
 
-## 7. Termination
+</div>
 
-We may suspend or terminate your access to the Service at any time if you violate these Terms or if required for operational or legal reasons.
+<div class="section">
 
-You may stop using the Service at any time.
+## Contact
 
----
+Questions about these terms?  
+Email **legal@recoveryfitapp.com**
 
-## 8. Disclaimer of Warranties
-
-The Service is provided **"as is"** and **"as available"** without warranties of any kind, express or implied.
-
-RecoveryFit does not warrant that the Service will be uninterrupted, error-free, or free of defects.
-
----
-
-## 9. Limitation of Liability
-
-To the maximum extent permitted by law, RecoveryFit shall not be liable for any indirect, incidental, or consequential damages arising out of your use of the Service, including injury, data loss, or performance outcomes.
-
----
-
-## 10. Changes to These Terms
-
-We may update these Terms from time to time. Continued use of the Service after changes become effective constitutes acceptance of the updated Terms.
-
----
-
-## 11. Contact Us
-
-If you have questions about these Terms, contact us at:
-
-**Email:** support@recoveryfitapp.com
-
+</div>

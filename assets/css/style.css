@@ -29,11 +29,6 @@
 }
 
 /* Nav links */
-.top-nav nav a {
-  margin-left: 1.5rem;
-  font-weight: 500;
-  text-decoration: none;
-  
   <nav>
   <a href="{{ site.baseurl }}/support"
      class="{% if page.url contains 'support' %}active{% endif %}">
@@ -45,7 +40,6 @@
      Terms
   </a>
 </nav>
-
 }
 
 /* Section rhythm */

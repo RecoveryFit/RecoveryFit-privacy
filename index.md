@@ -16,11 +16,11 @@ clear insights into your training load and progress over time.
 ---
 
 ## Legal
-- [Privacy Policy](privacy-policy.html)
-- [Terms of Service](terms-of-service.html)
+- [Privacy Policy](privacy-policy.md)
+- [Terms of Service](terms-of-service.md)
 
 ---
 
 ## Support
 Questions or issues?  
-Contact us at **support@yourdomain.com**
+Contact us at **support@recoveryfitapp.com**

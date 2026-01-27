@@ -1,3 +1,7 @@
+---
+layout: page
+title: Index
+---
 # RecoveryFit
 
 Train smarter. Recover better. Track what matters.

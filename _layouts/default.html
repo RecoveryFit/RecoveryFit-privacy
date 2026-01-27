@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{ page.title }} | RecoveryFit</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto+Condensed:wght@400;700;900&display=swap" rel="stylesheet">
-
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
+
 <body>
 
-  <main class="page-container">
+  <header class="top-nav">
+    <div class="nav-container">
+      <div class="brand">
+        RecoveryFit
+      </div>
+      <nav>
+        <a href="/support">Support</a>
+        <a href="/terms">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
     {{ content }}
   </main>
 

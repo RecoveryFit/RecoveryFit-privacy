@@ -75,3 +75,16 @@ section {
   font-size: 16px;
   opacity: 0.95;
 }
+  
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: 500;
+}
+
+nav a.active {
+  color: #FF6B35;
+  border-bottom: 2px solid #FF6B35;
+  padding-bottom: 4px;
+}

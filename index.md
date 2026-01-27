@@ -2,9 +2,6 @@
 layout: default
 title: Index
 ---
-# RecoveryFit
-
-Train smarter. Recover better. Track what matters.
 
 RecoveryFit helps you balance strength, cardio, and recovery with
 clear insights into your training load and progress over time.

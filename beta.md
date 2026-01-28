@@ -9,6 +9,17 @@ permalink: /beta/
 Help shape the future of RecoveryFit by joining the beta program.  
 Beta builds let you access upcoming features before public release.
 
+<div class="cta-container">
+  <a
+    href="TESTFLIGHT_LINK_HERE"
+    class="cta-button"
+    target="_blank"
+    rel="noopener"
+  >
+    Join the RecoveryFit Beta on TestFlight
+  </a>
+</div>
+
 ---
 
 ## What You’ll Need

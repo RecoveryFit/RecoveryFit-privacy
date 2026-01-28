@@ -4,8 +4,6 @@ title: Beta Access
 permalink: /beta/
 ---
 
-<div style="max-width: 720px; margin: auto;">
-
 # RecoveryFit Beta Access (TestFlight)
 
 Help shape the future of RecoveryFit by joining the beta program.  
@@ -39,6 +37,7 @@ Use the TestFlight invite link provided by RecoveryFit.
 
 ### 3. Install RecoveryFit
 Inside TestFlight:
+
 - Tap **Install**
 - Wait for the app to download
 - Open RecoveryFit like any other app
@@ -46,9 +45,9 @@ Inside TestFlight:
 ---
 
 ### 4. Keep Auto-Updates On (Recommended)
-Beta builds are updated frequently.
 
-In TestFlight:
+Beta builds are updated frequently. In TestFlight:
+
 - Tap **RecoveryFit**
 - Enable **Automatic Updates**
 
@@ -58,16 +57,15 @@ This ensures you always have the latest version.
 
 ## Providing Feedback (Very Important)
 
-Beta feedback helps improve RecoveryFit for everyone.
+Beta feedback helps improve RecoveryFit for everyone. You can:
 
-You can:
 - Report bugs directly through **TestFlight**
 - Share feedback inside the app (if available)
-- Email us directly at:
-
-📧 **support@recoveryfitapp.com**
+- Email us directly at:  
+  📧 **support@recoveryfitapp.com**
 
 When reporting an issue, please include:
+
 - What you were doing
 - What you expected to happen
 - What actually happened
@@ -87,6 +85,7 @@ If you need maximum stability, use the public App Store version instead.
 ## Leaving the Beta
 
 You can leave the beta at any time:
+
 - Open **TestFlight**
 - Select **RecoveryFit**
 - Tap **Stop Testing**
@@ -95,5 +94,3 @@ You can leave the beta at any time:
 ---
 
 Thanks for helping make RecoveryFit better 💪
-
-</div>

@@ -11,7 +11,7 @@ Beta builds let you access upcoming features before public release.
 
 <div class="cta-container">
   <a
-    href="TESTFLIGHT_LINK_HERE"
+    href="https://testflight.apple.com/join/TeMFpMBq"
     class="cta-button"
     target="_blank"
     rel="noopener"

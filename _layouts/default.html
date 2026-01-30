@@ -2,11 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>{{ page.title }} | RecoveryFit</title>
+  <title>
+    {% if page.title %}{{ page.title }} | {% endif %}{{ site.title | default: "RecoveryFit" }}
+  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{ site.description | default: 'Training, recovery, and performance tracking' }}" />
 
-  <!-- Minima base styles (THIS FIXES TIMES NEW ROMAN) -->
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+  <!-- RecoveryFit base styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
   <!-- RecoveryFit overrides -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
@@ -17,28 +25,63 @@
   <header class="top-nav">
     <div class="nav-container">
       <div class="brand">
-  <a href="{{ '/' | relative_url }}">RecoveryFit</a>
-</div>
+        <a href="{{ '/' | relative_url }}">RecoveryFit</a>
+      </div>
 
-      <nav>
-  <a href="{{ '/beta' | relative_url }}">Beta</a>
-  <a href="{{ '/support' | relative_url }}">Support</a>
-  <a href="{{ '/terms-of-service' | relative_url }}">Terms</a>
-</nav>
+      <nav class="nav-links">
+        <a href="{{ '/' | relative_url }}"
+           class="{% if page.url == '/' %}active{% endif %}">
+           Home
+        </a>
 
+        <a href="{{ '/beta' | relative_url }}"
+           class="{% if page.url contains '/beta' %}active{% endif %}">
+           Beta
+        </a>
+
+        <a href="{{ '/support' | relative_url }}"
+           class="{% if page.url contains '/support' %}active{% endif %}">
+           Support
+        </a>
+
+        <a href="{{ '/privacy-policy' | relative_url }}"
+           class="{% if page.url contains '/privacy-policy' %}active{% endif %}">
+           Privacy
+        </a>
+
+        <a href="{{ '/terms-of-service' | relative_url }}"
+           class="{% if page.url contains '/terms-of-service' %}active{% endif %}">
+           Terms
+        </a>
       </nav>
     </div>
   </header>
-<section class="hero">
-  <div class="hero-inner">
-    <h1>RecoveryFit</h1>
-    <p>Train smarter. Recover better. Perform longer.</p>
-  </div>
-</section>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>RecoveryFit</h1>
+      <p>Train smarter. Recover better. Perform longer.</p>
+    </div>
+  </section>
 
   <main class="page-content">
     {{ content }}
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <strong>RecoveryFit</strong>
+        <div class="footer-muted">{{ site.description | default: "Training, recovery, and performance tracking" }}</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="{{ '/support' | relative_url }}">Support</a>
+        <a href="{{ '/privacy-policy' | relative_url }}">Privacy</a>
+        <a href="{{ '/terms-of-service' | relative_url }}">Terms</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

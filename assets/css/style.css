@@ -1,4 +1,4 @@
-/* ===== RecoveryFit Visual Enhancements (SAFE) ===== */
+/* ===== RecoveryFit Visual Enhancements ===== */
 
 /* Layout width + breathing room */
 .page-content {
@@ -9,8 +9,8 @@
 
 /* Top navigation */
 .top-nav {
-  background: #ffffff;
-  border-bottom: 1px solid #e6e6e6;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
 }
 
 .nav-container {
@@ -20,72 +20,70 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
 }
 
 /* Brand */
 .brand a {
   text-decoration: none;
-  color: inherit;
+  color: var(--text);
   font-weight: 700;
+  font-family: var(--font-primary);
+  letter-spacing: -0.3px;
 }
 
 /* Nav links */
-  <nav>
-  <a href="{{ site.baseurl }}/support"
-     class="{% if page.url contains 'support' %}active{% endif %}">
-     Support
-  </a>
-
-  <a href="{{ site.baseurl }}/terms-of-service"
-     class="{% if page.url contains 'terms' %}active{% endif %}">
-     Terms
-  </a>
-</nav>
+.nav-links a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+  font-family: var(--font-secondary);
 }
 
-/* Section rhythm */
-section {
-  margin-bottom: 3rem;
+.nav-links a:hover {
+  text-decoration: none;
+  opacity: 0.9;
 }
 
+.nav-links a.active {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 4px;
+}
+
+/* Hero */
 .hero {
-  background: linear-gradient(135deg, #FF6B35, #FF8C5A);
+  background: linear-gradient(135deg, var(--primary), #FF8C5A);
   padding: 48px 16px;
 }
 
 .hero-inner {
-  max-width: 720px;
-  margin: auto;
+  max-width: 960px;
+  margin: 0 auto;
   color: white;
 }
 
 .hero h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 700;
+  font-family: var(--font-primary);
 }
 
 .hero p {
-  margin-top: 8px;
+  margin-top: 10px;
   font-size: 16px;
   opacity: 0.95;
-}
-  
-nav a {
-  margin-left: 16px;
-  text-decoration: none;
-  color: #1A1A1A;
-  font-weight: 500;
+  font-family: var(--font-secondary);
 }
 
-nav a.active {
-  color: #FF6B35;
-  border-bottom: 2px solid #FF6B35;
-  padding-bottom: 4px;
+/* Section rhythm (keeps markdown pages from feeling cramped) */
+section {
+  margin-bottom: 3rem;
 }
 
-/* ===== TestFlight CTA Button ===== */
-
+/* ===== CTA Button ===== */
 .cta-container {
   margin: 32px 0 40px;
   text-align: center;
@@ -94,13 +92,13 @@ nav a.active {
 .cta-button {
   display: inline-block;
   padding: 14px 24px;
-  font-family: Inter, system-ui, -apple-system, sans-serif;
+  font-family: var(--font-secondary);
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
 
   color: #ffffff;
-  background: linear-gradient(135deg, #FF6B35, #FF8C5A);
+  background: linear-gradient(135deg, var(--primary), #FF8C5A);
 
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(13, 27, 42, 0.25);
@@ -115,4 +113,33 @@ nav a.active {
 
 .cta-button:active {
   transform: scale(0.98);
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  padding: 22px 16px;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-muted {
+  color: var(--text-muted);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.footer-links a {
+  margin-left: 14px;
+  font-family: var(--font-secondary);
+  font-weight: 600;
 }
